@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.Pages.WorkingWithImageFromResource"
+              Title="Working With Image From Resource">
+    <CarouselPage.Children>
+        
+        <ContentPage Title="Car 1">
+            <Image x:Name="Car1" />
+        </ContentPage>
+
+        <ContentPage Title="Car 2">
+            <Image x:Name="Car2" />
+        </ContentPage>
+
+        <ContentPage Title="Car 3">
+            <Image x:Name="Car3" />
+        </ContentPage>
+
+        <ContentPage Title="Car 4">
+            <Image x:Name="Car4" />
+        </ContentPage>
+
+    </CarouselPage.Children>
+</CarouselPage>

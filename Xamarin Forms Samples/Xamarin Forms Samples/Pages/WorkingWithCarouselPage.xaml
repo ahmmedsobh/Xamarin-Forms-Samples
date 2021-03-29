@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.Pages.WorkingWithCarouselPage"
+              Title="Working With Carousel Page">
+    <CarouselPage.Children>
+        
+        <ContentPage Title="Slide 1" BackgroundColor="Blue">
+            <Label Text="Lable Of Slide 1" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </ContentPage>
+
+        <ContentPage Title="Slide 2" BackgroundColor="Red">
+            <Label Text="Lable Of Slide 2" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </ContentPage>
+        
+        <ContentPage Title="Slide 3" BackgroundColor="White">
+            <Label Text="Lable Of Slide 3" TextColor="Red" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </ContentPage>
+
+    </CarouselPage.Children>
+</CarouselPage>

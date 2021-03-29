@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.Pages.WorkingWithLayoutOptions"
+             Title="Working With Layout Options">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <StackLayout HeightRequest="250" BackgroundColor="Blue">
+                    <Label Text="Start" HorizontalOptions="Start" BackgroundColor="Red"/>
+                    <Label Text="Center" HorizontalOptions="Center" BackgroundColor="Red"/>
+                    <Label Text="End" HorizontalOptions="End" BackgroundColor="Red"/>
+                    <Label Text="Fill" HorizontalOptions="Fill" BackgroundColor="Red"/>
+                </StackLayout>
+
+                <StackLayout Margin="10" HeightRequest="250" BackgroundColor="Blue">
+                    <Label Text="Start" VerticalOptions="Start" BackgroundColor="Red"/>
+                    <Label Text="Center" VerticalOptions="Center" BackgroundColor="Red"/>
+                    <Label Text="End" VerticalOptions="End" BackgroundColor="Red"/>
+                    <Label Text="Fill" VerticalOptions="Fill" BackgroundColor="Red"/>
+                </StackLayout>
+
+                <StackLayout Margin="10" HeightRequest="250" BackgroundColor="Blue">
+                    <Label Text="StartAndExpand" VerticalOptions="StartAndExpand" BackgroundColor="Red"/>
+                    <Label Text="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="Red"/>
+                    <Label Text="EndAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="Red"/>
+                    <Label Text="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.MainPage"
+             BackgroundColor="Blue"
+             Title="Xamarin Forms Samples">
+    <ScrollView>
+        <StackLayout BackgroundColor="Blue">
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Xamal" x:Name="WorkingWithXamal"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Events" x:Name="WorkingWithEvents"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Create Login Form With Stack Layout" x:Name="CreateLoginFormWithStackLayout"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Absolute Layout" x:Name="WorkingWithAbsoluteLayout"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Carousel Page" x:Name="WorkingWithCarouselPage"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Frame" x:Name="WorkingWithFrame"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Grid" x:Name="WorkingWithGrid"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Image From File" x:Name="WorkingWithImageFromFile"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Image From Resource" x:Name="WorkingWithImageFromResource"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Image From Uri" x:Name="WorkingWithImageFromUri"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Layout Options" x:Name="WorkingWithLayoutOptions"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Master Detail Page" x:Name="WorkingWithMasterDetailPage"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Navigation Page" x:Name="WorkingWithNavigationPage"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Picker" x:Name="WorkingWithPicker"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Relative Layout" x:Name="WorkingWithRelativeLayout"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With ScrollView" x:Name="WorkingWithScrollView"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Switch" x:Name="WorkingWithSwitch"/>
+            <Button Padding="10" TextColor="White" BackgroundColor="Red" Text="Working With Tabbed Page" x:Name="WorkingWithTabbedPage"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.Pages.CreateLoginFormWithStackLayout"
+             Padding="15"
+             BackgroundColor="Blue"
+             Title="Create Login Form With Stack Layout">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="15" BackgroundColor="Red">
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="White" VerticalOptions="Center" Text="UserName"/>
+                <Entry TextColor="White" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label TextColor="White" VerticalOptions="Center" Text="Password"/>
+                <Entry TextColor="White" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <Button BackgroundColor="White" TextColor="Blue" Text="Login"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

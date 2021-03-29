@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin_Forms_Samples.Pages.WorkingWithRelativeLayout"
+             Title="Working With Relative Layout">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <BoxView Color="Blue" x:Name="ParentBox" 
+            
+                     RelativeLayout.XConstraint="{
+                        ConstraintExpression Type = RelativeToParent,
+                        Property=Width,
+                        Constant= 0,
+                        Factor=.25}"
+                     
+                     RelativeLayout.YConstraint="{
+                        ConstraintExpression Type = RelativeToParent,
+                        Property=Height,
+                        Constant= 0,
+                        Factor=.25}"
+                     
+                     RelativeLayout.WidthConstraint="{
+                        ConstraintExpression Type = RelativeToParent,
+                        Property=Width,
+                        Constant= 0,
+                        Factor=.50}"
+                     
+                     RelativeLayout.HeightConstraint="{
+                        ConstraintExpression Type = RelativeToParent,
+                        Property=Height,
+                        Constant= 0,
+                        Factor=.50}"
+                     
+                     />
+
+            <BoxView Color="Red" 
+            
+                     RelativeLayout.XConstraint="{
+                        ConstraintExpression Type = RelativeToView,
+                        ElementName= ParentBox,
+                        Property=X}"
+                     
+                     RelativeLayout.YConstraint="{
+                        ConstraintExpression Type = RelativeToView,
+                        ElementName= ParentBox,
+                        Property=Y}"
+                     
+                     RelativeLayout.WidthConstraint="{
+                        ConstraintExpression Type = RelativeToView,
+                        ElementName= ParentBox,
+                        Property=Width,
+                        Factor=.50}"
+                     
+                     RelativeLayout.HeightConstraint="{
+                        ConstraintExpression Type = RelativeToView,
+                        ElementName= ParentBox,
+                        Property=Height,
+                        Factor=.50}"
+                     
+                     />
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
